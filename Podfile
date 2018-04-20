@@ -8,6 +8,8 @@ target 'Social Media Event Organiser v3 XC9' do
   # Pods for Social Media Event Organiser v3 XC9
 
 	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Database'
 
 
   target 'Social Media Event Organiser v3 XC9Tests' do
