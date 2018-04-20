@@ -16,10 +16,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Main-->
+        <!--TabBarController-->
         <scene sceneID="VvP-3i-FxJ">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="dpG-UY-lIc" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="TabBarController" id="dpG-UY-lIc" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GmE-bi-O63" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-586" y="251"/>
@@ -283,10 +283,10 @@
             </objects>
             <point key="canvasLocation" x="-1220" y="191.1544227886057"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="zBD-QZ-Q89">
             <objects>
-                <viewController id="mQ9-c9-Mmf" sceneMemberID="viewController">
+                <viewController id="mQ9-c9-Mmf" customClass="RegisterViewController" customModule="Social_Media_Event_Organiser_v3_XC9" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C8P-Y3-fIq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -412,6 +412,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VW3-DR-Hnv"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="vJL-zU-zow" id="7aG-4J-1JS"/>
+                        <outlet property="passwordTextField" destination="ObU-pE-mao" id="RgQ-er-Ee7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AXY-FX-GfE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
