@@ -20,6 +20,8 @@
 		0451B9DB2089E26E00AF63F5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0451B9DA2089E26E00AF63F5 /* Login.storyboard */; };
 		17DBF41295962E04926C1EBB /* Pods_Social_Media_Event_Organiser_v3_XC9UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D172E5B4C5964C204DB19DB /* Pods_Social_Media_Event_Organiser_v3_XC9UITests.framework */; };
 		1FB33EEB9A858F94A5D8EA1F /* Pods_Social_Media_Event_Organiser_v3_XC9Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970DCA74F99F2DECE2BF76C3 /* Pods_Social_Media_Event_Organiser_v3_XC9Tests.framework */; };
+		85BC58BB2089E8E400B789B0 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BC58B92089E8E400B789B0 /* Alert.swift */; };
+		85BC58BC2089E8E400B789B0 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BC58BA2089E8E400B789B0 /* Validation.swift */; };
 		E9B45223495B8217294CB3A4 /* Pods_Social_Media_Event_Organiser_v3_XC9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CC878A928E403C1C942C55 /* Pods_Social_Media_Event_Organiser_v3_XC9.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		0451B9DA2089E26E00AF63F5 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		32CC878A928E403C1C942C55 /* Pods_Social_Media_Event_Organiser_v3_XC9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Media_Event_Organiser_v3_XC9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		353DDB454668A8B03600CFDC /* Pods-Social Media Event Organiser v3 XC9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Media Event Organiser v3 XC9.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social Media Event Organiser v3 XC9/Pods-Social Media Event Organiser v3 XC9.release.xcconfig"; sourceTree = "<group>"; };
+		85BC58B92089E8E400B789B0 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = "Social Media Event Organiser v3 XC9/Alert.swift"; sourceTree = SOURCE_ROOT; };
+		85BC58BA2089E8E400B789B0 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = "Social Media Event Organiser v3 XC9/Validation.swift"; sourceTree = SOURCE_ROOT; };
 		92F7CB75602F68885B029EFB /* Pods-Social Media Event Organiser v3 XC9Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Media Event Organiser v3 XC9Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social Media Event Organiser v3 XC9Tests/Pods-Social Media Event Organiser v3 XC9Tests.release.xcconfig"; sourceTree = "<group>"; };
 		970DCA74F99F2DECE2BF76C3 /* Pods_Social_Media_Event_Organiser_v3_XC9Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Media_Event_Organiser_v3_XC9Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D172E5B4C5964C204DB19DB /* Pods_Social_Media_Event_Organiser_v3_XC9UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Media_Event_Organiser_v3_XC9UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +128,8 @@
 			children = (
 				0451B99B2089C8F500AF63F5 /* AppDelegate.swift */,
 				0451B9D52089CB3A00AF63F5 /* EventTableViewController.swift */,
+				85BC58B92089E8E400B789B0 /* Alert.swift */,
+				85BC58BA2089E8E400B789B0 /* Validation.swift */,
 				0451B9CD2089CACF00AF63F5 /* Login */,
 				0451B9CE2089CAD500AF63F5 /* UI */,
 				0451B9A22089C8F500AF63F5 /* Assets.xcassets */,
@@ -417,6 +423,8 @@
 				0451B9D42089CB1600AF63F5 /* RegisterViewController.swift in Sources */,
 				0451B9D22089CB0E00AF63F5 /* LoginViewController.swift in Sources */,
 				0451B9D62089CB3A00AF63F5 /* EventTableViewController.swift in Sources */,
+				85BC58BB2089E8E400B789B0 /* Alert.swift in Sources */,
+				85BC58BC2089E8E400B789B0 /* Validation.swift in Sources */,
 				0451B99C2089C8F500AF63F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

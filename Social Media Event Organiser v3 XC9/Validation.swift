@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Validation {
+class Validation { 
     
     //Email Validation
     func isValidEmail(emailStr:String) -> Bool {

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class Alert: UIAlertController {
+class Alert: UIAlertController { 
     
     let alertController = UIAlertController(title: "", message: "", preferredStyle: .alert)
     let defaultAction = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
